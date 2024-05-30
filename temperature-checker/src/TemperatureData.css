@@ -1,0 +1,51 @@
+/* src/TemperatureData.css */
+body {
+    background-image: url('/public/rain.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for readability */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .chart-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+ /* src/TemperatureData.css */
+.icon {
+    width: 50px; /* Set the width of the image to make it smaller */
+    height: 50px; /* Maintain the aspect ratio */
+    margin-right: 10px;
+  }
+  
